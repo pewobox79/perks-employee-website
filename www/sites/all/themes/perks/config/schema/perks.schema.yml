@@ -1,0 +1,5 @@
+# Schema for the configuration files of the perks theme.
+
+perks.settings:
+  type: theme_settings
+  label: 'perks settings'
