@@ -34,6 +34,9 @@ regions:
   highlighted: Highlighted
   featured_top: 'Featured top'
   breadcrumb: Breadcrumb
+  section_first: 'Section First'
+  section_second: 'Section Second'
+  section_third: 'Section Third'
   content: Content
   sidebar_first: 'Sidebar first'
   sidebar_second: 'Sidebar second'
