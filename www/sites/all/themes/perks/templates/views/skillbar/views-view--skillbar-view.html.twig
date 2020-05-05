@@ -33,9 +33,16 @@
  */
 #}
 <!-- start about section -->
-<section id="business" class="wow fadeIn">
+<section class="wow fadeIn bg-light-gray">
   <div class="container">
-    {{ rows }}
+    <div class="row">
+      {% if header %}
+        {{ header }}
+      {% endif %}
+
+      {{ rows }}
+    </div>
+    <!--end row-->
   </div>
 </section>
 <!-- end about section -->
