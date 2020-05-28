@@ -1,0 +1,16 @@
+
+<div class="swiper-slide cover-background sm-background-image-center"
+     style="background-image:url('{% spaceless %}{{ fields.field_header_image.content }}{% endspaceless %}');">
+  <div class="container-fluid slider-half-screen position-relative">
+    <div class="slider-typography text-left">
+      <div class="slider-text-middle-main">
+        <div class="slider-text-middle padding-ten-left sm-padding-five-left">
+          <span class="text-middle-line text-deep-pink d-block width-20 md-text-middle-line sm-width-50">{{ fields.field_subtitle.content }}</span>
+          <span
+            class="title-large alt-font text-extra-dark-gray font-weight-700 width-25 margin-40px-tb sm-margin-20px-tb d-block letter-spacing-minus-2 md-width-60">{{ fields.title.content }}</span>
+          <a class="btn btn-small btn-dark-gray" data-wow-delay="0.6s" href="{{ fields.field_cta_link.content }}">{{ fields.field_cta_link_text.content }}</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
