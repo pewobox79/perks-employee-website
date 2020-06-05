@@ -124,7 +124,7 @@
 
         <figure class="wp-caption alignright"><img alt=""
                                                    src="{{ file_url(node.field_image_content_second.entity.uri.value) }}">
-          <figcaption class="wp-caption-text">bildunterschrift</figcaption>
+          <figcaption class="wp-caption-text">{{ node.field_image_content_second.alt }}</figcaption>
         </figure>
         <span
           class="text-medium alt-font font-weight-600 margin-20px-bottom d-block text-extra-dark-gray">{{ node.field_content_second_header.value }}</span>
@@ -132,7 +132,7 @@
 
         <figure class="wp-caption alignleft"><img alt=""
                                                   src="{{ file_url(node.field_image_content_third.entity.uri.value) }}">
-          <figcaption class="wp-caption-text">bildunterschrift</figcaption>
+          <figcaption class="wp-caption-text">{{ node.field_image_content_third.alt }}</figcaption>
         </figure>
         <span
           class="text-medium alt-font font-weight-600 margin-20px-bottom d-block text-extra-dark-gray">{{ node.field_content_third_header.value }}</span>
