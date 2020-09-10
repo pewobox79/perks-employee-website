@@ -1,0 +1,36 @@
+{#
+/**
+* @file
+* Default theme implementation to display a view of unformatted rows.
+*
+* Available variables:
+* - title: The title of this group of rows. May be empty.
+* - rows: A list of the view's row items.
+*   - attributes: The row's HTML attributes.
+*   - content: The row's content.
+* - view: The view object.
+* - default_row_class: A flag indicating whether default classes should be
+*   used on rows.
+*
+* @see template_preprocess_views_view_unformatted()
+*
+* @ingroup themeable
+*/
+#}
+<form id="contact-form" action="javascript:void(0)" method="post"
+      class="white-popup-block mfp-hide col-lg-3 p-0 mx-auto">
+  <h1>heyho</h1>
+  <div class="padding-fifteen-all bg-white border-radius-6 lg-padding-seven-all">
+    <div class="text-extra-dark-gray alt-font text-large font-weight-600 margin-30px-bottom">Looking for a
+      excellent business idea?
+    </div>
+    <div>
+      <div id="success-contact-form" class="mx-0"></div>
+      {% for row in rows %}
+        <!--start webform input-->
+        {{ row.content }}
+        <!--end webform input-->
+      {% endfor %}
+    </div>
+  </div>
+</form>
